@@ -3,7 +3,7 @@
 
 int main(int argc, char* argv[]) {
 	if (argc != 4) {
-		printf("Incorrect amount of arguments. num1, operator, num2");
+		printf("Incorrect amount of arguments. num1, operator, num2\n");
 		return 1;
 	}
 	float num1 = atoi(argv[1]);
